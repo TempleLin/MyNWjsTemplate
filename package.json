@@ -1,0 +1,17 @@
+{
+  "name": "launcherforcolorprojectexes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64 --buildDir dist/ src/"
+  },
+  "keywords": [],
+  "author": "Mei-Chun Lo, Temple Lin",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.61.0-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}
