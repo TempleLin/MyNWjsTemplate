@@ -14,7 +14,8 @@ How it's configured: (Everything is installed and set in this template. Just typ
     Set "main" and "window" attributes accordingly under src/package.json.
 
 To run in development mode, "npm run dev" in terminal.
-To build, "npm run prod" in terminal.
+To build, "npm run prod" in terminal. (Not done. Only for development build.)
+For confirmed final distribution, see final_packaging.pdf for tutorial.
 
 Tutorial resource used: https://www.youtube.com/watch?v=5UsGnjPYxLU
 
