@@ -3,8 +3,9 @@ How it's configured: (Everything is installed and set in this template. Just typ
     "npm install nw@[your wanted version]-sdk nw-builder -D" in terminal.
     
     Set "scripts" attributes accordingly under package.json.
-    "dev": "nw src/",
-    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+        ex:
+            "dev": "nw src/",
+            "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
 
     Create src folder.
     Create app, assets, styles, views folder under src folder.
