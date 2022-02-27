@@ -19,5 +19,7 @@ To build, "npm run prod" in terminal.
 
 Tutorial resource used: https://www.youtube.com/watch?v=5UsGnjPYxLU
 
-Note: Path of the directory won't be near the executable when distributed.
-        To get current executable's directory: path.dirname(process.execPath);
+Note: 
+1.Path of the directory won't be near the executable when distributed.
+	To get current executable's directory: path.dirname(process.execPath);
+2.Might need administration when opening CMD for distribution.
