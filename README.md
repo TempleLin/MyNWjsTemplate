@@ -14,8 +14,7 @@ How it's configured: (Everything is installed and set in this template. Just typ
     Set "main" and "window" attributes accordingly under src/package.json.
 
 To run in development mode, "npm run dev" in terminal.
-To build, "npm run prod" in terminal. (Not done. Only for development build.)
-For confirmed final distribution, see final_packaging.pdf for tutorial.
+To build, "npm run prod" in terminal.
 
 Tutorial resource used: https://www.youtube.com/watch?v=5UsGnjPYxLU
 
@@ -25,3 +24,4 @@ To get current executable's directory: path.dirname(process.execPath);
 2.Might need administration when opening CMD for distribution.
 3.To disable DevTools(console), add "chromium-args": "--disable-devtools" to src/package.json.
 4.NW.js has two versions: Normal and SDK. Normal version is for final packaging/distribution; SDK version is for during development.
+5.Alternative method of packaging/distributing/deploying, see final_packaging.pdf.
